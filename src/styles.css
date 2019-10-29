@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css?family=Monoton&display=swap");
+
+html, body, #root {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.App {
+  font-family: sans-serif;
+  margin: auto;
+}
+.hed-nav {
+  font-family: "Monoton", cursive;
+  font-size: 50px;
+  padding-left: 12px;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+}
+
+.hed {
+  font-family: "Monoton", cursive;
+  font-size: 60px;
+  text-align: center;
+}
+
+.hed-sub {
+  font-size: 32px;
+  font-family: "Monoton", cursive;
+}
+.user__copy {
+  font-size: 24px;
+}
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 24px;
+  padding-right: 24px;
+  max-width: 1200px;
+  width: 100%;
+}
+.nav-bar {
+  list-style: none;
+  display: flex;
+  z-index: 5;
+  padding: 15px;
+  -webkit-box-pack: justify;
+  -webkit-box-align: center;
+  align-items: center;
+  background-color: rgb(28, 32, 34);
+  font-size: 1.2rem;
+  color: rgb(204, 204, 204);
+  font-weight: 400;
+  box-sizing: border-box;
+  margin: -8px;
+  flex: 0 0 1rem;
+  margin-bottom: 32px;
+}
+.sub-nav-bar {
+  list-style: none;
+  display: flex;
+  padding: 15px;
+  font-size: 1.2rem;
+  color: #000;
+  font-weight: 400;
+  margin: -8px;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-bottom: 32px;
+}
+.sub-nav-bar__row {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  padding-left: 16px;
+}
+.nav-bar__item a {
+  text-decoration: none;
+  padding-left: 10px;
+  color: #000;
+  font-size: 32px;
+  font-family: "Monoton", cursive;
+}
+
+.post {
+  padding: 0;
+}
+.posts__item {
+  list-style: none;
+  font-size: 24px;
+  margin: 10px 0px 22px 0px;
+}
+
+.link-title {
+  text-decoration: underline;
+  color: rgb(28, 32, 34);
+}
+
+.link-title-sub {
+  text-decoration: none;
+  font-weight: bold;
+  color: #c81d86;
+}
+
+.comment-container {
+  background: #e4e4e4;
+  padding: 12px;
+  font-size: 24px;
+  margin-bottom: 16px;
+  border-radius: 6px;
+}
+
+.btn-light-dark {
+  background: transparent;
+  border: none;
+  float: right;
+}
+
+.btn-clear {
+  border: none;
+  background: transparent;
+}
+
+/* DARKMODE STYLES */
+.dark {
+  color: #dadada;
+  background: #1c2022;
+  min-height: 100%;
+  padding-bottom: 36px;
+}
+}
+
+.dark a {
+  color: rgb(203, 203, 203);
+}
+
+.dark > div.comment-container {
+  color: #000!important;
+}
