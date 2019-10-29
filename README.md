@@ -1,5 +1,5 @@
 # hacker-news-react
-Created with CodeSandbox
+Hacker News soft clone. Shows new and top stories. Also features user profiles, comments with replies, and light/dark mode for visual preference.
 
 Instructions
 
